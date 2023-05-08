@@ -501,7 +501,7 @@ export const storeData = [
     price: 200,
   },
   {
-    id: "37",
+    id: "38",
     img: jeans6,
     name: "Casual Jeans 6",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -512,7 +512,7 @@ export const storeData = [
     price: 200,
   },
   {
-    id: "38",
+    id: "39",
     img: jeans7,
     name: "Casual Jeans 7",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -523,7 +523,7 @@ export const storeData = [
     price: 180,
   },
   {
-    id: "39",
+    id: "40",
     img: jeans8,
     name: "Casual Jeans 8",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -534,7 +534,7 @@ export const storeData = [
     price: 160,
   },
   {
-    id: "40",
+    id: "41",
     img: jacket1,
     name: "Casual Jacket 1",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -545,7 +545,7 @@ export const storeData = [
     price: 400,
   },
   {
-    id: "41",
+    id: "42",
     img: jacket2,
     name: "Casual Jacket 2",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -556,7 +556,7 @@ export const storeData = [
     price: 255,
   },
   {
-    id: "42",
+    id: "43",
     img: jacket3,
     name: "Casual Jacket 3",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -567,7 +567,7 @@ export const storeData = [
     price: 300,
   },
   {
-    id: "43",
+    id: "44",
     img: jacket4,
     name: "Casual Jacket 4",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -578,7 +578,7 @@ export const storeData = [
     price: 185,
   },
   {
-    id: "44",
+    id: "45",
     img: jacket5,
     name: "Casual Jacket 5",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -589,7 +589,7 @@ export const storeData = [
     price: 185,
   },
   {
-    id: "45",
+    id: "46",
     img: jacket6,
     name: "Casual Jacket 6",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -600,7 +600,7 @@ export const storeData = [
     price: 285,
   },
   {
-    id: "46",
+    id: "47",
     img: jacket7,
     name: "Casual Jacket 7",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -611,7 +611,7 @@ export const storeData = [
     price: 425,
   },
   {
-    id: "47",
+    id: "48",
     img: jacket8,
     name: "Casual Jacket 8",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -622,7 +622,7 @@ export const storeData = [
     price: 335,
   },
   {
-    id: "48",
+    id: "49",
     img: bag1,
     name: "Casual Bag 1",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -632,7 +632,7 @@ export const storeData = [
     price: 500,
   },
   {
-    id: "49",
+    id: "50",
     img: bag2,
     name: "Casual Bag 2",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -642,7 +642,7 @@ export const storeData = [
     price: 85,
   },
   {
-    id: "50",
+    id: "51",
     img: bag3,
     name: "Casual Bag 3",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -652,7 +652,7 @@ export const storeData = [
     price: 200,
   },
   {
-    id: "51",
+    id: "52",
     img: bag4,
     name: "Casual Bag 4",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -662,7 +662,7 @@ export const storeData = [
     price: 25,
   },
   {
-    id: "52",
+    id: "53",
     img: bag5,
     name: "Casual Bag 5",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -672,7 +672,7 @@ export const storeData = [
     price: 40,
   },
   {
-    id: "53",
+    id: "54",
     img: bag6,
     name: "Casual Bag 6",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -682,7 +682,7 @@ export const storeData = [
     price: 400,
   },
   {
-    id: "54",
+    id: "55",
     img: bag7,
     name: "Casual Bag 7",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -692,7 +692,7 @@ export const storeData = [
     price: 355,
   },
   {
-    id: "55",
+    id: "56",
     img: bag8,
     name: "Casual Bag 8",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -702,7 +702,7 @@ export const storeData = [
     price: 100,
   },
   {
-    id: "56",
+    id: "57",
     img: suit1,
     name: "Casual Suit 1",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -713,7 +713,7 @@ export const storeData = [
     price: 300,
   },
   {
-    id: "57",
+    id: "58",
     img: suit2,
     name: "Casual Suit 2",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -724,7 +724,7 @@ export const storeData = [
     price: 400,
   },
   {
-    id: "58",
+    id: "59",
     img: suit3,
     name: "Casual Suit 3",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -735,7 +735,7 @@ export const storeData = [
     price: 200,
   },
   {
-    id: "59",
+    id: "60",
     img: suit4,
     name: "Casual Suit 4",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -746,7 +746,7 @@ export const storeData = [
     price: 600,
   },
   {
-    id: "60",
+    id: "61",
     img: suit5,
     name: "Casual Suit 5",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -757,7 +757,7 @@ export const storeData = [
     price: 750,
   },
   {
-    id: "61",
+    id: "62",
     img: suit6,
     name: "Casual Suit 6",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -768,7 +768,7 @@ export const storeData = [
     price: 385,
   },
   {
-    id: "62",
+    id: "63",
     img: suit7,
     name: "Casual Suit 7",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
@@ -779,7 +779,7 @@ export const storeData = [
     price: 700,
   },
   {
-    id: "63",
+    id: "64",
     img: suit8,
     name: "Casual Suit 8",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
