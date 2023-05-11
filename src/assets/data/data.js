@@ -105,7 +105,7 @@ export const storeData = [
   {
     id: "2",
     img: shirt2,
-    name: "Casual T-Shrit 2",
+    name: "Casual T-Shirt 2",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
     type: "T-Shirts",
     size: ["M", "L", "XL"],
@@ -116,7 +116,7 @@ export const storeData = [
   {
     id: "3",
     img: shirt3,
-    name: "Casual T-Shrit 3",
+    name: "Casual T-Shirt 3",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
     type: "T-Shirts",
     size: ["L", "XL"],
@@ -127,7 +127,7 @@ export const storeData = [
   {
     id: "4",
     img: shirt4,
-    name: "Casual T-Shrit 4",
+    name: "Casual T-Shirt 4",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
     type: "T-Shirts",
     size: ["M", "L", "XL"],
@@ -138,7 +138,7 @@ export const storeData = [
   {
     id: "5",
     img: shirt5,
-    name: "Casual T-Shrit 5",
+    name: "Casual T-Shirt 5",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
     type: "T-Shirts",
     size: ["M", "L", "XL"],
@@ -149,7 +149,7 @@ export const storeData = [
   {
     id: "6",
     img: shirt6,
-    name: "Casual T-Shrit 6",
+    name: "Casual T-Shirt 6",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
     type: "T-Shirts",
     size: ["M", "L", "XL"],
@@ -171,7 +171,7 @@ export const storeData = [
   {
     id: "8",
     img: shirt8,
-    name: "Casual T-Shrit 8",
+    name: "Casual T-Shirt 8",
     text: "Fashion never stops. There is always the new project, the new opportunity. The important thing is to take your time and not get stressed. I just want to do what I do.",
     type: "T-Shirts",
     size: ["M", "XL"],
