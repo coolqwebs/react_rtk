@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
+import Cart from "../Cart/Cart";
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
+  const { totalAmount } = useSelector((state) => state.cart);
+  const [openCart, setOpenCart] = useState(false);
+
+  const handleOpenCart = () => setOpenCart(true);
   return (
     <>
       <div className="bg-black p-2 w-full">
@@ -31,19 +37,29 @@ const Navbar = () => {
               Wish List
             </p>
           </div>
-          <div className="flex flex-row items-center cursor-pointer">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="#383960"
-              className="w-6 h-6"
-            >
-              <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
-            </svg>
+          <div
+            className="flex flex-row items-center cursor-pointer"
+            onClick={handleOpenCart}
+          >
+            {totalAmount > 0 ? (
+              <span className="rounded-full bg-gray-300 px-2 font-inter text-sm mr-1 ">
+                {totalAmount}
+              </span>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="#383960"
+                className="w-6 h-6"
+              >
+                <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+              </svg>
+            )}
 
             <p className="font-inter text-base font-meduim text-center ml-1">
               Shopping Cart
             </p>
+            {openCart ? <Cart open={openCart} setOpen={setOpenCart} /> : null}
           </div>
         </div>
       </div>

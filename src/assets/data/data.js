@@ -71,7 +71,7 @@ export const sliderData = [
   {
     id: "0",
     img: shoe1,
-    text: "Summers SALE up to 50% OFF what are you wating for",
+    text: "Summers SALE up to 50% OFF what are you waiting for",
   },
   {
     id: "1",
