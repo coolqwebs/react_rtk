@@ -1,12 +1,21 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
+import defaultUserAvatar from "../../assets/images/defaultUserAvatar.svg";
 import Cart from "../Cart/Cart";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { logout } from "../../features/slices/authSlice";
+import { Avatar } from "@material-tailwind/react";
 
 const Navbar = () => {
   const { totalAmount } = useSelector((state) => state.cart);
+  const { email, image } = useSelector((state) => state.auth.user);
   const [openCart, setOpenCart] = useState(false);
 
+  const dispatch = useDispatch();
+
+  const onLogout = () => {
+    dispatch(logout());
+  };
   const handleOpenCart = () => setOpenCart(true);
   return (
     <>
@@ -20,7 +29,10 @@ const Navbar = () => {
           <img className="h-28 w-full" src={logo} alt="store" />
         </div>
         <div className="flex flex-row items-center">
-          <button className="font-inter text-base font-meduim text-center mr-4">
+          <button
+            className="font-inter text-base font-meduim text-center mr-4"
+            onClick={onLogout}
+          >
             Logout
           </button>
           <div className="flex flex-row items-center">
@@ -60,6 +72,15 @@ const Navbar = () => {
               Shopping Cart
             </p>
             {openCart ? <Cart open={openCart} setOpen={setOpenCart} /> : null}
+          </div>
+          <div className="flex flex-row items-center pl-4">
+            <Avatar
+              src={image ? image : defaultUserAvatar}
+              alt={email}
+              size="sm"
+              className="mr-2"
+            />
+            <p className="font-inter font-meduim text-sm">{email}</p>
           </div>
         </div>
       </div>

@@ -4,15 +4,16 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FilteredProducts from "./components/FilteredProducts/FilteredProducts";
 import SingleProduct from "./components/FilteredProducts/SingleProduct";
 import { useSelector } from "react-redux";
+import Login from "./components/Login/Login";
 
 function App() {
-  const cart = useSelector((state) => state.cart);
-  console.log("🚀 ~ file: App.js:10 ~ App ~ cart:", cart);
+  const { authUser } = useSelector((state) => state.auth.user);
+
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={authUser ? <Main /> : <Login />} />
           <Route
             path="/filtered-products/:type"
             element={<FilteredProducts />}
