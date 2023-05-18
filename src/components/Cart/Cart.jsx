@@ -11,7 +11,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { removeFromCart } from "../../features/slices/cartSlice";
 
 const Cart = ({ open, setOpen }) => {
-  const { cart, totalAmount, totalPrice } = useSelector((state) => state.cart);
+  const { cart, totalPrice } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
 
   const removeFromCartHandler = (item) => {
@@ -28,10 +28,10 @@ const Cart = ({ open, setOpen }) => {
             unmount: { scale: 0.9, y: -100 },
           }}
         >
-          <DialogHeader>Its a simple dialog.</DialogHeader>
+          <DialogHeader>List of items in your cart</DialogHeader>
           <DialogBody
             divider
-            className="flex flex-col justify-center items-start"
+            className="flex flex-col justify-center items-start h-min max-h-[40rem] overflow-scroll"
           >
             {cart.map((item) => (
               <div className="" key={item.id}>

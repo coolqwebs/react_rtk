@@ -5,6 +5,7 @@ import Cart from "../Cart/Cart";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../features/slices/authSlice";
 import { Avatar } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { totalAmount } = useSelector((state) => state.cart);
@@ -21,12 +22,14 @@ const Navbar = () => {
     <>
       <div className="bg-black p-2 w-full">
         <h3 className="text-white font-inter italic text-2xl font-bold text-center">
-          Nursace
+            Nursace
         </h3>
       </div>
       <div className="flex justify-around items-center">
         <div>
-          <img className="h-28 w-full" src={logo} alt="store" />
+          <Link to="/">
+            <img className="h-28 w-full" src={logo} alt="store" />
+          </Link>
         </div>
         <div className="flex flex-row items-center">
           <button

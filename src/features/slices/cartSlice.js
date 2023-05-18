@@ -69,8 +69,6 @@ export const cartSlice = createSlice({
       } catch (error) {
         return error;
       }
-
-      alert("Item removed");
     },
   },
 });

@@ -14,7 +14,7 @@ const FilteredProducts = () => {
             {type}
           </h1>
         </div>
-        <div className="grid grid-cols-4 justify-items-center py-8 gap-12">
+        <div className="grid grid-cols-3 justify-items-center py-8 gap-12">
           {products.map((product) => (
             <ProductCard
               key={product.id}
